@@ -1,0 +1,5 @@
+**Context:**
+Subway turnstile entrances lack inclusiveness as they don't support wheelchairs and the only way for wheelchair access is the entrance with a worker that has long line. I redesigned it to be more accessible. 
+  
+**My Angle:**
+ My angle on this is that anything that isn't designed for inclusiveness is poor design. The inclusive functions that cater to diverse means of living include: visual cues on the ground and on the machine with descriptive writing and symbols to identify which turnstiles are designed inclusively; instructions on the machine for those that have hearing disabilities; assistance button and speaker for those that don’t speak english (or the language of the country where the gates are installed); light up cues on the x and checkmark as well as the pass-through sensor to tell the person when to go, to cater to the speed of those who move slower.

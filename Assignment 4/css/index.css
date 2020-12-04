@@ -1,0 +1,110 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto+Slab:wght@700&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto+Slab', serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+body{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8em;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+section#itemsInner{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+article#items{
+    position: relative;
+}
+
+div.moreleft, div.moreright {
+    position: absolute;
+    height: 100%;
+    width: 0em;
+    background: black;
+    bottom: 0;
+}
+
+div.moreleft {
+    left: 0;
+}
+
+div.moreright {
+    left: 0;
+}
+
+.scrollleft, .scrollright {
+    position: absolute;
+    transform: scaleY(2);
+    bottom: 50%;
+    font-size: 4em;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scrollleft{
+    left: 0;
+}
+
+.scrollright{
+    right: 0;
+}
+
+a.left-button, a.right-button {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+footer{
+    background-color: gray;
+    color: black;
+}
+
+body{
+    background-color: lightgray;
+color: black;
+}
+
+.navbar-inverse{
+    background-color: gray;
+}
+
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+
+.btn-primary {
+    color: black;
+    background-color: gray;
+    border-color: black;
+}
+
+.item {
+    width: 750px;
+    height: 580px;
+    margin: 10px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: black;
+    background-color: darkgray;
+    border-color: black
+}
+
+article{
+    margin-top: 70px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
